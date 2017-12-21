@@ -6,6 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
+    "build:ci": "npm run build -bh \"https://dreiv.github.io/ng-layout/\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

@@ -1,0 +1,30 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+}
+
+.secondary-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.toolbar {
+  background: lime;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background: lightgray;
+}
